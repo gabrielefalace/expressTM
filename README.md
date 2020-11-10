@@ -1,9 +1,9 @@
-# expressTM
+# Threat Flow
 a condensed STRIDE based TM method
 
 # Summary
 
-ExpressTM is yet another threat modeling technique tailored to do a simple yet effective (enough) threat modeling. It's based on classic STRIDE methodology and 
+Yet another threat modeling technique tailored to do a simple yet effective (enough) threat modeling. It's based on classic STRIDE methodology and 
 * Uses "criticality" instead of (or better yet, in addition to) usual Trust Zones, in order to better capture distributed architectures (microservices, anyone?)
 * Condenses the STRIDE rules in a more compact form to maximize speed
 * mixes in some of privacy threat form the LINDDUN framework 
