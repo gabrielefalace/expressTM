@@ -8,13 +8,11 @@ Yet another threat modeling technique tailored to do a simple yet effective (eno
 * Condenses the STRIDE rules in a more compact form to maximize speed
 * mixes in some of privacy threat form the LINDDUN framework 
 
-:warning: Not a silver bullet!
-
 # Input
 
 An architecture diagram is needed as input, preferably a DFD
 
-# Procedure
+# The methodology
 
 ## Finding Criticalities
 We'll label every system or actor in the diagram as having a “criticality” value. This will range from 0 to a maximum number. This doesn't need to be determined up front, rather will be the result of updating it several times during the labeling process itself.
@@ -25,7 +23,8 @@ In this case we need to denote criticality explicitly, otherwise we end up with 
 
 1. Start by giving untrusted external entities 0 e.g. users
 2. Every element directly contacted by a 0 will have 1
-3. navigate the diagram and give a criticality score, answering the question: “how harmful is if this component gets compromised?”
+3. navigate the diagram and give a criticality score, answering the question: _“how harmful is if this component gets compromised?”_
+4. treat trusted “external” entities (e.g. systems in other teams in the company), like internal i.e. don't give 0
 
 
 ## Applying STRIDE rules, with a flow based algorithm
