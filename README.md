@@ -1,5 +1,5 @@
 # Threat Flow
-a condensed STRIDE and LNDDUN inspired threat modeling technique.
+A condensed Threat Modeling technique based on STRIDE and LNDDUN.
 
 # Summary
 
