@@ -4,7 +4,7 @@ A condensed Threat Modeling technique based on STRIDE and LINDDUN.
 # Summary
 
 Yet another threat modeling technique tailored to do a simple yet effective (enough) threat modeling. It's based on classic STRIDE methodology and 
-* Uses "criticality" instead of (or better yet, in addition to) usual Trust Zones, in order to better capture distributed architectures (microservices, anyone?)
+* Uses "criticality" instead of (or better yet, in combination to) usual Trust Zones, in order to better capture distributed architectures (microservices, anyone?)
 * Condenses the STRIDE rules in a more compact form to maximize speed
 * mixes in some of privacy threat form the LINDDUN framework 
 
