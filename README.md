@@ -3,6 +3,7 @@ A condensed Threat Modeling technique based on STRIDE and LINDDUN.
 
 ## ⚠️ corrections TODO
 "U" only for entities, like users
+Explicitly distinguish trust zones and criticality
 
 # Summary
 
