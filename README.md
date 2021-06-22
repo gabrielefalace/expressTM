@@ -1,6 +1,9 @@
 # Threat Flow
 A condensed Threat Modeling technique based on STRIDE and LINDDUN.
 
+## ⚠️ corrections TODO
+"U" only for entities, like users
+
 # Summary
 
 Yet another threat modeling technique tailored to do a simple yet effective (enough) threat modeling. It's based on classic STRIDE methodology and 
